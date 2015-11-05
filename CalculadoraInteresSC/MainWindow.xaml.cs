@@ -13,13 +13,14 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using CalculadoraInteresSC.Helper;
 using System.Text.RegularExpressions;
+using MahApps.Metro.Controls;
 
 namespace CalculadoraInteresSC
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : MetroWindow
     {
         /// <summary>
         /// Instancia del helper para realizar los calculos del interes simple
